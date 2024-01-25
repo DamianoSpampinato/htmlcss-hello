@@ -1,13 +1,22 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-color: lightgrey;
+}
+
 header{
     width: 100vw;
     margin: auto;
     text-align: center;
 }
 
+.titolo{
+    color: orange;
+}
 
 .cerca{
     display: inline-block;
@@ -15,4 +24,28 @@ header{
 
 .bottone-cerca:hover{
     background-color: orange;
+    color: red;
+}
+
+main{
+    margin-left: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    
+}
+
+
+main p{   
+    
+    font-style: italic;
+    font-size: medium;
+    width: 20%;
+}
+
+main p:hover{
+width: 100%;
+font-size: 50px;
+
 }
